@@ -4,6 +4,7 @@ div {
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
+    background-image: url('/src/images/futebol-no-conceito-de-sucesso-do-objetivo.jpg');
   }
   
   h1 {
