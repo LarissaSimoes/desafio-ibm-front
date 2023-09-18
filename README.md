@@ -1,3 +1,30 @@
+ ## Como executar o projeto
+
+<br/>
+
+```bash
+# Clonar ou baixar o repositório
+git clone git@github.com:LarissaSimoes/desafio-ibm-front.git
+# Entrar no diretório
+cd desafio-ibm-front
+# Instalar as dependências
+npm install
+# Rodar a aplicação
+npm start
+```
+
+<br /><hr /><br />
+
+<p align='center'>
+  Desenvolvido por <b>Larissa Simões</b>
+  <br/><br/>
+
+  <a href="https://www.linkedin.com/in/dev-larissa-carneiro-simoes/">
+    <img alt="linkedIn" height="30px" src="https://i.imgur.com/TQRXxhT.png" />
+  </a>
+  &nbsp;&nbsp;
+</p>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
