@@ -1,44 +1,43 @@
 .add-player-container {
-    background-color: #f5f5f5;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
     flex-direction: column;
+    align-items: center;
+    background-image: url('/src/images/futebol-no-conceito-de-sucesso-do-objetivo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    justify-content: center;
   }
   
   .add-player-form {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  label {
-    font-weight: bold;
-    margin-top: 20px;
-    margin-right: 10px;
+    padding: 20px;
+    border: 2px solid gray;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.9);
   }
   
   input {
-    padding: 10px;
-    margin-top: 5px;
-    border: 1px solid #ccc;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid gray;
     border-radius: 4px;
+    background-color: #f1f1f1;
+    margin-left: 10px;
   }
   
   button {
-    margin-top: 20px;
-    padding: 10px 20px;
+    padding: 12px;
+    border-radius: 8px;
     background-color: blue;
     color: white;
-    border: none;
-    border-radius: 4px;
     cursor: pointer;
   }
   
-
-  h1 {
-    text-align: center;
+  button:disabled {
+    background-color: gray;
   }
   
+  h1 {
+    margin-bottom: 20px;
+  }
   
